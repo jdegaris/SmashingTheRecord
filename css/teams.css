@@ -1,0 +1,230 @@
+.Cardinals1 {
+    color: #8A052D;
+    text-shadow: 1px 2px #FFC20E;
+    }
+    .Cardinals2 {
+    color: #FFC20E;
+    }
+    .Falcons1 {
+    color: #A6192E;
+    text-shadow: 1px 2px #8C8B89;
+    }
+    .Falcons2 {
+    color: #8C8B89;
+    }
+    .Ravens1 {
+    color: #241773;
+    text-shadow: 1px 2px #886B25;
+    }
+    .Ravens2 {
+    color: #886B25;
+    }
+    .Bills1 {
+    color: #003087;
+    text-shadow: 1px 2px #C8102E;
+    }
+    .Bills2 {
+    color: #C8102E;
+    }
+    .Panthers1 {
+    color: #0085CA;
+    text-shadow: 1px 2px #8A8D8F;
+    }
+    .Panthers2 {
+    color: #8A8D8F;
+    }
+    .Bears1 {
+    color: #051C2C;
+    text-shadow: 1px 2px #DC4405;
+    }
+    .Bears2 {
+    color: #DC4405;
+    }
+    .Bengals1 {
+    color: #FC4C02;
+    text-shadow: 1px 2px black;
+    }
+    .Bengals2 {
+    color: #FC4C02;
+    }
+    .Browns1 {
+    color: #382F2D;
+    text-shadow: 1px 2px #EB3300;
+    }
+    .Browns2 {
+    color: #EB3300;
+    }
+    .Cowboys1 {
+    color: #003594;
+    text-shadow: 1px 2px #869397;
+    }
+    .Cowboys2 {
+    color: #869397;
+    }
+    .Broncos1 {
+    color: #0C2340;
+    text-shadow: 1px 2px #FC4C02;
+    }
+    .Broncos2 {
+    color: #FC4C02;
+    }
+    
+    .Lions1 {
+    color: #0069B1;
+    text-shadow: 1px 2px #A2AAAD;
+    }
+    .Lions2 {
+    color: #A2AAAD;
+    }
+    .Packers1 {
+    color: #183028;
+    text-shadow: 1px 2px #FFB81C;
+    }
+    .Packers2 {
+    color: #FFB81C;
+    }
+    .Texans1 {
+    color: #091F2C;
+    text-shadow: 1px 2px #A6192E;
+    }
+    .Texans2 {
+    color: #A6192E;
+    }
+    .Colts1 {
+    color: #003A70;
+    text-shadow: 1px 2px #A2AAAD;
+    }
+    .Colts2 {
+    color: #A2AAAD;
+    }
+    .Chiefs1 {
+    color: #C8102E;
+    text-shadow: 1px 2px #FFB81C;
+    }
+    .Chiefs2 {
+    color: #FFB81C;
+    }
+    .Rams1 {
+    color: #041E42;
+    text-shadow: 1px 2px #866D4B;
+    }
+    .Rams2 {
+    color: #866D4B;
+    }
+    .Dolphins1 {
+    color: #008E97;
+    text-shadow: 1px 2px #F58220;
+    }
+    .Dolphins2 {
+    color: #F58220;
+    }
+    .Vikings1 {
+    color: #4F2683;
+    text-shadow: 1px 2px #FFC62F;
+    }
+    .Vikings2 {
+    color: #FFC62F;
+    }
+    .Patriots1 {
+    color: #0C2340;
+    text-shadow: 1px 2px #C8102E;
+    }
+    .Patriots2 {
+    color: #C8102E;
+    }
+    .Saints1 {
+    color: #D3BC8D;
+    text-shadow: 1px 2px #101820;
+    }
+    .Saints2 {
+    color: #101820;
+    }
+    .Jets1 {
+    color: #046A38;
+    text-shadow: 1px 2px #003F2D;
+    }
+    .Jets2 {
+    color: #003F2D;
+    }
+    .Raiders1 {
+    color: #A5ACAF;
+    text-shadow: 1px 2px #101820;
+    }
+    .Raiders2 {
+    color: #101820;
+    }
+    .Eagles1 {
+    color: #004851;
+    text-shadow: 1px 2px #8D9093;
+    }
+    .Eagles2 {
+    color: #8D9093;
+    }
+    .Steelers1 {
+    color: #FFB81C;
+    text-shadow: 2px 2px #101820;
+    }
+    .Steelers2 {
+    color: #101820;
+    }
+    .FortyNiners1 {
+    color: #A6192E;
+    text-shadow: 1px 2px #85714D;
+    }
+    .FortyNiners2 {
+    color: #85714D;
+    }
+    .Seahawks1 {
+    color: #0C2340;
+    text-shadow: 1px 2px #78BE20;
+    }
+    .Seahawks2 {
+    color: #78BE20;
+    }
+    .Buccaneers1 {
+    color: #C42C20;
+    text-shadow: 1px 2px #FF7900;
+    }
+    .Buccaneers2 {
+    color: #FF7900;
+    }
+    .Titans1 {
+    color: #041E42;
+    text-shadow: 1px 2px #418FDE;
+    }
+    .Titans2 {
+    color: #418FDE;
+    }
+    .Redskins1 {
+    color: #651D32;
+    text-shadow: 1px 2px #FFB81C;
+    }
+    .Redskins2 {
+    color: #FFB81C;
+    }
+    .Chargers1 {
+    color: #0072CE;
+    text-shadow: 1px 2px #FFB81C;
+    }
+    .Chargers2 {
+    color: #FFB81C;
+    }
+    
+    .Giants1 {
+    color: #001E62;
+    text-shadow: 1px 1px #A6192E;
+    }
+    
+    .Giants2 {
+    color: #A6192E;
+    }
+    
+    .Jaguars1 {
+    color: #006073;
+    text-shadow: 1px 2px #D9A318;
+    }
+    
+    .Jaguars2 {
+    color: #D9A318;
+    }
+    

@@ -1,0 +1,478 @@
+    /* GLOBAL STYLES */
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Alfa Slab One";
+  
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+/*    END GLOBAL
+===================================
+    HEADER STYLES */
+
+
+header {
+  width: 100%;
+  background: black;
+  
+}
+
+#header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  width: 100%;
+  text-decoration: none;
+  color: #BC0100;
+  text-align: center;
+}
+
+
+
+.logo {
+  text-decoration: none;
+  color: #BC0100;
+  font-size: 1.6rem;
+}
+
+      /* END HEADER
+=========================
+    LANDING PAGE STYLES */
+  
+
+
+#intro {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 2rem;
+  }
+    
+#search {
+  width: 100%;
+  margin-top: 10%;
+  text-align: center;
+}
+input[type=text] {
+  
+  font-size: 1.4rem;
+  width: 50%;
+  min-width: 300px;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid rgba(0, 0, 0, .4);
+  text-align: center;
+
+}
+input[type=submit] {
+  display: block;
+  font-size: 1.6rem;
+  border: 0;
+  outline: none;
+  margin: 5% auto;
+  border-radius: 5px;
+  width: 35%;
+  max-width: 120px;
+  height: 2rem;
+  background-color: #428BCA;
+  color: white;
+  text-align: center;
+}
+
+#league-leaders {
+  display: block;
+  font-size: 1.6rem;
+  border: 0;
+  outline: none;
+  margin: 5% auto;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 280px;
+  height: 4rem;
+  background-color: #dccf30;
+  color: white;
+  text-align: center;
+}
+
+.spacer {
+  font-size: 1.2rem;
+  text-align: center;
+  
+}
+.teams-menu {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+}
+
+.teams-box {  
+  display: flex;
+  margin-top: 2%;
+  width: 100%;
+  -webkit-box-shadow: -1px 2px 17px 3px rgba(105,105,105,1);
+  -moz-box-shadow: -1px 2px 17px 3px rgba(105,105,105,1);
+  box-shadow: -1px 2px 17px 3px rgba(105,105,105,1);
+  font-size: 1.2rem;
+}
+.teams-box a,.teams-box a:visited,.teams-box a:hover,.teams-box a:active {
+  color: blue;
+}
+
+.team {
+  margin: 3px;
+  font-size: 1.1rem;
+}
+
+
+
+      /* END LANDING PAGE
+===============================
+      LEADERBOARD OVERLAY  */
+
+#leaderboard-overlay {
+  display: none;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  height: 105%;
+  width: 100%;
+  top:0;
+  background: rgba(0, 0, 0, .95);
+  z-index: 10;
+  overflow: hidden;
+}
+
+#close-overlay {
+  position: absolute;
+  font-size: 2rem;
+  color: #fff;
+  right:0;
+  margin-top:25px;
+  margin-right: 3%;
+  z-index: 100;
+}
+
+/* PASSING LEADERBOARD STYLES */
+
+#passing-stats {
+  display: flex;
+  flex-direction: column;
+}
+
+#passing-stats ul{
+  position: absolute;
+  padding: 0;
+  min-height: 100vh;
+  min-width: 120%;
+  width: 100%;
+  top:0;
+  left: 0;
+  background: rgba(0, 0, 0, .95);
+  overflow: hidden;
+  justify-content: center;
+}
+#leader-nav ul #passing-stats ul{
+  flex-direction: column;
+  justify-content: center;
+}
+#leader-nav ul #passing-stats ul li{
+  font-size: 3rem;
+  margin: 20px auto;
+  cursor: pointer;}
+
+
+/* RUSHING LEADERBOARD STYLES */
+#rushing-stats {
+  display: none;
+  flex-direction: column;
+}
+
+#rushing-stats ul{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  min-width: 120%;
+  width: 100%;
+  top:0;
+  left: 0;
+  background: rgba(0, 0, 0, .95);
+  overflow: hidden;
+  justify-content: center;
+}
+#leader-nav ul #rushing-stats ul{
+  flex-direction: column;
+  justify-content: center;
+}
+#leader-nav ul #rushing-stats ul li{
+  font-size: 3rem;
+  margin: 20px auto;
+  cursor: pointer;}
+
+
+
+/* RECEIVING LEADERBOARD STYLES */
+#receiving-stats {
+  display: none;
+  flex-direction: column;
+}
+
+#receiving-stats ul{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  min-width: 120%;
+  width: 100%;
+  top:0;
+  left: 0;
+  background: rgba(0, 0, 0, .95);
+  overflow: hidden;
+  justify-content: center;
+}
+#leader-nav ul #receiving-stats ul{
+  flex-direction: column;
+  justify-content: center;
+}
+#leader-nav ul #receiving-stats ul li{
+  font-size: 3rem;
+  margin: 20px auto;
+  cursor: pointer;}
+
+
+
+#display-passing-yards {
+  display: none;
+}
+#display-passing-completions {
+  display: none;
+}
+#display-passing-touchdowns {
+  display: none;
+}
+#display-rushing-yards {
+  display: none;
+
+}
+#display-rushing-touchdowns {
+  display: none;
+
+}
+#display-receiving-receptions {
+  display: none;
+}
+#display-receiving-yards {
+  display: none;
+}
+#display-receiving-touchdowns {
+  display: none;
+}
+
+
+
+
+  /* END LEADERBOARD OVERLAY
+===============================
+         START LEAGUE LEADERS */
+
+         #leader-nav {
+          width: 100%;
+          max-width: 500px;
+          margin: 0 auto;
+        }
+        #leader-nav ul {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          list-style-type: none;
+          margin-left: -50px;
+        }
+        #leader-nav ul li {
+          font-size: 1.5rem;
+          color: #BC0100;
+          overflow: 
+        }
+        
+        
+        #stat-box {
+          display: flex;
+          margin: 0 auto;
+          text-align: center;
+          height: 18.85vh;
+          border-bottom: 2px solid black;
+          max-width: 500px;
+          color: #E8E8E8;
+        }
+        #stat-image{
+          display: flex;
+          justify-content: center;
+          width: 50%;
+        }
+        #stat-image img{
+          max-height: 18.85vh;
+          text-align: center;
+          
+        }
+        #stat-player {
+          display: flex;
+          flex-direction: column;
+          align-self: center;
+          justify-self: center;
+          width: 100%;
+        }
+        #stat-player a {
+          color: #ffffff;
+          text-decoration: none;
+        }
+        #player-result span{
+          color: #BC0100;
+        }
+        
+        #player-result {
+          text-decoration: none;
+          font-size: 1.5rem;
+          line-height: 1.5rem;
+          margin-top: .5rem;
+        }
+        #player-stats {
+          margin-top: .5rem;
+          font-size: 1.2rem;
+          line-height: 1.2rem;
+          
+        }
+        
+        
+        
+        
+    /* END LEAGUE LEADERS 
+ ===============================
+    SEARCH RESULTS STYLES */
+
+    .team-list,.team-list:visited,.team-list:hover,.team-list:active {
+      color: blue;
+    }
+
+#search-results {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse:collapse;
+  border: 1px solid black;
+  max-width: 600px;
+  margin: 2rem auto;
+  
+}
+
+#search-results thead td:nth-child(1), #search-results thead td:nth-child(2) {
+  background: grey;
+  text-align: center;
+  width: 42%;
+}
+
+
+#search-results thead td:nth-child(3) {
+  background: grey;
+  text-align: center;
+  width: 16%;
+}
+#search-results tr {
+  height: 8vh;
+  text-align: center;
+}
+#search-results .player-result {
+  font-size: 1.4rem;
+}
+#search-results tr:nth-child(even){
+  background: #E8E8E8;
+}
+#search-results a,#search-results a:visited,#search-results a:hover,#search-results a:active {
+  color: blue;
+}
+
+      /* SEARCH RESULTS STYLES
+===============================
+         START MEDIA QUERIES */
+
+@media screen and (max-width: 899px) {
+  #index-top {
+    height: 89vh;
+  }
+
+  #search {
+    margin-top: 15%;
+  }
+
+.teams-list {
+  display: none;
+}
+
+
+}
+@media screen and (min-width: 899px) {
+  .logo {
+    font-size: 3rem;
+  }
+  #intro {
+    margin-top: 1%;
+    }
+
+  #search {
+    margin-top: 1%;
+  }
+input[type=submit] {
+  margin: 1% auto;
+}
+.spacer {
+  margin-top: 1%;
+}
+
+#close-overlay {
+
+  margin-right: 25%;
+}
+
+
+#stat-box {
+  border-bottom: none;
+
+}
+
+
+
+
+
+  .teams-menu {
+    display: none;
+  }
+  .teams-list {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 30px 0;
+  }
+  
+  .team {
+    margin-left: 30%;
+    padding: 2px;
+    
+  }
+
+
+
+
+  }

@@ -1,0 +1,130 @@
+body {
+  background: #E8E8E8;
+  height: 100vh;
+}
+
+a.back-team {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+a.back-league {
+  text-decoration: none;
+  font-size: 1.2rem;
+  float: right;
+
+}
+.player-info {
+  text-align: center;
+}
+
+.player-info img {
+  height: 20%;
+  text-align: center;
+  border-radius: 50%;
+  filter: contrast(120%);
+}
+
+.tweet {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+.tweet select {
+  height: 1.7rem;
+  width: 25%;
+  margin: 0 5px;
+}
+
+.player-name {
+  font-family: "Alfa Slab One";
+  font-size: 2.3rem;
+  letter-spacing: 1px;
+}
+.player-position {
+  font-family: "Alfa Slab One";
+  font-size: 2rem;
+}
+
+#category {
+  
+  letter-spacing: .03rem;
+  text-align: center;
+  padding: 0 ;
+  margin: 15px 0 ;
+  font-weight: 400;
+  width: 100%;
+}
+
+#category h2{
+  display: inline-block;
+  font-size: 2rem;
+  border-bottom: 2px solid;
+  }
+
+
+
+
+
+.mainStat {
+  font-size: 48px;
+  /* color: #006073; */
+  /* text-shadow: 2px 2px #D9A318; */
+  text-transform: uppercase;
+}
+
+
+.stat-cat {
+  font-family: "Russo One";
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+}
+.season-tweet-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+.career-tweet-link {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+.unclicked-tweet {
+  display: none;
+}
+
+
+#stats {
+  display: flex;
+  flex-direction: column;
+  font-family: "Russo One";
+  font-size: 1.5rem;
+  padding-top: 10px;
+  margin: 0 auto;  
+  max-width: 480px;
+}
+
+#stats ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  
+}
+#stats ul li {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.stat {
+  font-size: 1.5rem;
+}
+
+
+
+
+
+
+
